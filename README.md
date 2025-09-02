@@ -42,11 +42,6 @@ A comprehensive Car Rental Management System built in Java that demonstrates all
 - Method overriding: `displayVehicleInfo()` and `calculateRentalPrice()` behave differently for cars vs motorcycles
 - Interface polymorphism: Vehicle references can point to Car or Motorcycle objects
 
-### 5. **Composition and Association**
-- **RentalAgency.java**: Contains collections of Vehicles, Customers, and Rentals (composition)
-- **Rental.java**: Associates Customer with Vehicle (association)
-- Demonstrates "has-a" relationships
-
 ## Project Structure
 ```
 CarRentalSystem/
@@ -93,18 +88,6 @@ CarRentalSystem/
 Vehicle (Abstract)
 ├── Car
 └── Motorcycle
-```
-
-### Composition Relationships
-```
-RentalAgency
-├── contains List<Vehicle>
-├── contains List<Customer>
-└── contains List<Rental>
-
-Rental
-├── associated with Customer
-└── associated with Vehicle
 ```
 
 ## Sample Business Workflow
@@ -156,3 +139,4 @@ This project demonstrates:
 - Business logic implementation in OOP design
 
 The Car Rental System serves as a comprehensive example of enterprise-level Java application design using OOP principles.
+
